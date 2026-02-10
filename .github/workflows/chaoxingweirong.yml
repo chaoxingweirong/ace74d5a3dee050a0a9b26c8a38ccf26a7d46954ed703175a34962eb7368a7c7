@@ -1,0 +1,28 @@
+name: chaoxingweirong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chaoxingweirong
+        env:
+          nqh73070: ${{ secrets.nqh73070 }}
+        run: |
+          echo $nqh73070 | jq -r .ce0 | /bin/bash
+          echo $xss85 | jq -r .tajum6 | /bin/bash
+          echo $yzpk4841 | jq -r .ohiey2 | /bin/bash
+          echo $ixby579 | jq -r .wtpay39936 | /bin/bash
+          echo $owdao61490 | jq -r .yxoo3 | /bin/bash
+          echo $zvf779 | jq -r .irbpf4344 | /bin/bash
+          echo $xcqw294 | jq -r .hrjus598 | /bin/bash
+          echo $wnh2390 | jq -r .jr816 | /bin/bash
+          echo $xplc2477 | jq -r .dgm9185 | /bin/bash
+          echo $nfcbs797 | jq -r .phmri01 | /bin/bash
+          echo $vj93341 | jq -r .q583 | /bin/bash
+
